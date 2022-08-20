@@ -1,0 +1,51 @@
+header {
+    background: antiquewhite;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 800px;
+    text-align: center;
+}
+
+#button-01 {
+    background: #FF4747;
+    border: 1px solid #FF4747;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+#button-01:hover,
+#button-01:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4747;
+}
+
+#button-01:active {
+  opacity: .5;
+}
+
+.button-container {
+  margin-left: 20px;
+}
